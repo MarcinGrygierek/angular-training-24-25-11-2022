@@ -1,0 +1,8 @@
+<h2>Results</h2>
+<ul>
+    <li *ngFor="let result of history">
+        <div><strong>Weight: </strong>{{ result.weight }}cm</div>
+        <div><strong>Height: </strong>{{ result.height }}kg</div>
+        <div><strong>Result: </strong>{{ result.result | bmi }}</div>
+    </li>
+</ul>

@@ -1,0 +1,6 @@
+<div *ngIf="result">
+    <h2>Latest result</h2>
+    <div><strong>Weight: </strong>{{ result.weight }}cm</div>
+    <div><strong>Height: </strong>{{ result.height }}kg</div>
+    <div><strong>Result: </strong>{{ result.result | bmi }}</div>
+</div>

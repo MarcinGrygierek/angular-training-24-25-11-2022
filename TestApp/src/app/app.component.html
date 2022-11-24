@@ -1,0 +1,16 @@
+<app-hello-world appStyleDirective text='Lorem ipsum'
+ [randomNumber]="randomNumber" 
+ [generateNumber]="generateRandomNumber"
+ (callback)="handleCallback($event)"
+ >
+</app-hello-world>
+
+<a [appStyleDirective]="color">Asasdasd</a>
+
+<div>
+  {{ 1000 | currency:'PLN' }}
+</div>
+
+<app-rx-playground></app-rx-playground>
+
+<app-test-form></app-test-form>
